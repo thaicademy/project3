@@ -6,21 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>เกี่ยวกับเรา</title>
-    <link rel="stylesheet" href="./script/style.css" />
 </head>
 
 <body>
-
     <?php
        include "navbar.php";
     ?>
-    <h1 class="abc">เกี่ยวกับเรา</h1>
+    <div class="container-fluid">
+        <h1 class="abc">เกี่ยวกับเรา</h1>
+        <img src="./images/picture1.jpg" height="200px" />
+        <img src="./images/picture2.jpg" height="200px" />
+        <img src="./images/picture3.jpg" height="200px" />
 
-
-    <img src="./images/picture1.jpg" height="200px" />
-    <img src="./images/picture2.jpg" height="200px" />
-    <img src="./images/picture3.jpg" height="200px" />
-
+    </div>
 </body>
 
 </html>
