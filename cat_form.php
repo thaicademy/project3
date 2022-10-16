@@ -13,11 +13,27 @@
       include "navbar.php";
     ?>
 
-    <div class="container">
+    <div class="container col-md-8">
         <form action="cat_insert.php" method="post" enctype="multipart/form-data">
-            ประเภทสินค้า <input type="text" name="cat_name" /> <br />
-            แทรกรูป <input type="file" name="photo" /> <br />
-            <input type="submit" value="บึกทึกข้อมูล" />
+            <div class="row mb-2">
+                <div class="col-md-2">
+                    ประเภทสินค้า
+                </div>
+                <div class="col-md-10">
+                    <input type="text" name="cat_name" class="form-control" />
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-2">
+                    แทรกรูป
+                </div>
+                <div class="col-md-10">
+                    <input type="file" name="photo"  class="form-control" />
+                </div>
+            </div>
+            <div class="d-grid">
+                <input type="submit" value="บึกทึกข้อมูล" class="btn btn-primary" />
+            </div>
         </form>
     </div>
 

@@ -12,14 +12,24 @@
     <?php
       include "navbar.php";
     ?>
-    <div class="container">
-        <h1> Login </h1>
+    <div class="container col-md-6">
+        <h1 class="text-center"> Login </h1>
         <form action="login.php" method="post" enctype="multipart/form-data">
-            Email :
-            <input type="text" name="email" /> <br />
-            Password :
-            <input type="password" name="password" /> <br />
-            <input type="submit" value="เข้าสู่ระบบ" />
+            <div class="row mb-2">
+                <div class="col-md-2">Email :</div>
+                <div class="col-md-10">
+                    <input type="text" name="email" class="form-control" />
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-md-2"> Password :</div>
+                <div class="col-md-10">
+                    <input type="password" name="password" class="form-control" />
+                </div>
+            </div>
+            <div class="d-grid">
+                <input type="submit" value="เข้าสู่ระบบ" class="btn btn-success" />
+            </div>
         </form>
     </div>
 </body>
