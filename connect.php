@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "root1234";
-$dbname = "db_sunday";  //ชื่อฐานข้อมูล
+$username = "somkiat";   
+$password = "@6Eba0874";
+$dbname = "thaicade_somkiat";  //ชื่อฐานข้อมูล
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
